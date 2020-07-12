@@ -1,0 +1,111 @@
+.constant-element {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: #afafaf;
+    pointer-events: none;
+    -webkit-user-select: none;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    padding: 5px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.constant-element select,
+.constant-element input,
+.constant-element button {
+    /* Enable interacting with inputs only. */
+    pointer-events: auto;
+}
+.constant-element button.delete {
+    color: white;
+    border: none;
+    background-color: #040404;
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: middle;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.constant-element button.delete:hover {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+.constant-element input {
+    position: relative;
+    border: none;
+    color: #333;
+    padding: 5px;
+    height: 7px;
+    width:50px;
+}
+.constant-element label {
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    text-shadow: 1px 0 0 lightgray;
+    font-weight: bold;
+}
+
+.slider-element {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: #afafaf;
+    pointer-events: none;
+    -webkit-user-select: none;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    padding: 5px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.slider-element select,
+.slider-element input,
+.slider-element button {
+    /* Enable interacting with inputs only. */
+    pointer-events: auto;
+}
+.slider-element button.delete {
+    color: white;
+    border: none;
+    background-color: #040404;
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: middle;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.slider-element button.delete:hover {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+.slider-element input {
+    position: relative;
+    border: none;
+    color: #333;
+    padding: 5px;
+    height: 7px;
+    width:50px;
+}
+.slider-element label {
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    text-shadow: 1px 0 0 lightgray;
+    font-weight: bold;
+}
