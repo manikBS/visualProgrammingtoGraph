@@ -55,12 +55,22 @@
         label: 'slider',
     });
 
-    var el3 = new joint.shapes.dataGenerator.Element({
+    var el3 = new joint.shapes.sinx.Element({
         position: { x: 600, y: 160 },
         size: { width: 170, height: 100 },
-        label: 'dataGenerator',
     });
-    graph.addCells([el1, el2, el3]);
+
+    var el4 = new joint.shapes.dropBox.Element({
+        position: { x: 600, y: 160 },
+        size: { width: 170, height: 100 },
+        label: 'dropBox',
+    });
+
+    var el5 = new joint.shapes.cosx.Element({
+        position: { x: 600, y: 160 },
+        size: { width: 170, height: 100 },
+    });
+    graph.addCells([el1, el2, el3, el4, el5]);
 
     </script> 
 </body>
