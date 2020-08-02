@@ -19,7 +19,7 @@
     <!-- code -->
     <script type="text/javascript">
         var graph = new joint.dia.Graph;
-        new joint.dia.Paper({
+        var paper = new joint.dia.Paper({
             el: $('#myholder'),
             width: 700, height: 700, gridSize: 1,
             model: graph,
@@ -66,10 +66,12 @@
         label: 'dropBox',
     });
 
-    var el5 = new joint.shapes.cosx.Element({
+    var el5 = new joint.shapes.quadEquation.Element({
         position: { x: 600, y: 160 },
-        size: { width: 170, height: 100 },
+        size: { width: 170, height: 200 },
+        inPorts:['in1','in2','in3','in4']
     });
+    console.log(paper.findViewByModel(el1))
     graph.addCells([el1, el2, el3, el4, el5]);
 
     </script> 
